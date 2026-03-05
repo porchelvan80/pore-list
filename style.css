@@ -1,0 +1,17 @@
+main .card {
+  border-radius: 0.75rem;
+}
+
+.task-text {
+  word-break: break-word;
+}
+
+#task-form .btn {
+  min-width: 120px;
+}
+
+@media (max-width: 576px) {
+  #task-form .form-floating label {
+    font-size: 0.9rem;
+  }
+}
